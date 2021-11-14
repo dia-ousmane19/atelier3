@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(223, 210, 210);
+}
+
+#titre {
+    text-align: center;
+    color: rgb(100, 13, 13);
+}
+
+.link {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(61, 136, 235);
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}

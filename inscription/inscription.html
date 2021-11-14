@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../css/master.css">
+</head>
+
+<body>
+
+    <h2>Inscription</h2>
+
+    <a href="../home/accueil.html">Acueil</a>
+
+    <section class="container">
+        <div>
+            <form action="traitement.php" method="POST">
+                <div class="form-item">
+                    <label for="nom">Votre nom au complet</label>
+                    <p><input required type="text" name="nom" id="nom" class="form-control" placeholder="ex: Ousmane Dia"></p>
+
+                </div>
+                <div class="form-item">
+                    <label for="email">Votre adresse email</label>
+                    <p><input type="email" name="email" id="email" class="form-control" placeholder="ex: john@techclub.com"></p>
+
+                </div>
+                <div class="form-item">
+                    <label for="pwd">Votre mot de passe</label>
+                    <p><input type="password" name="pwd" id="pwd" class="form-control" placeholder="Saisir votre mot de passe"></p>
+
+                </div>
+                <div class="form-item">
+                    <label for="pwdConfirmation">Confirmation de mot de passe</label>
+                    <p><input type="password" name="pwdConfirmation" id="pwdConfirmation" class="form-control" placeholder="Confimez votre mot de passe"></p>
+
+                </div>
+                <div class="form-item">
+                    <label for="genre">Votre genre ?</label>
+                    <p>
+                        <input type="radio" name="genre" value="feminin">
+                        <label for="">Feminin</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="genre" value="masculin">
+                        <label for="">Masculin</label>
+                    </p>
+
+
+
+                </div>
+
+                <div>
+                    <button type="submit" class="btn">Enregister</button>
+                </div>
+                <div>
+                    <p>Connectez-vous <a href="../connexion/connexion.html">ici</a></p>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
